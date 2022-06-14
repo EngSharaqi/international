@@ -162,8 +162,18 @@ button.btn.btn-primary:hover, button.btn.btn-primary:active, button.btn.btn-prim
     width: 98%;
     height: 98%;
     background: #b28b64;
-    /* border: 4px solid #fdb; */
     z-index: -1;
 } */
 
 .main-products .card {  border: 0}
+
+@media(max-width: 991px){
+    nav ul{ margin-left: 0 }
+
+    .contacts .navbar-nav { flex-direction: unset }
+    
+    .contacts a.nav-link {
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+}
