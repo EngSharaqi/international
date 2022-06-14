@@ -134,3 +134,21 @@ nav ul.navbar-nav li.nav-item i {
 }
 
 .active { font-weight: bolder }
+
+.bg-primary {
+    background-color: #b28b64!important;
+    color: #fff!important;
+    border-color: #b28b64;
+}
+
+button.btn.btn-primary {
+    background: #fff;
+    color: #b28b64;
+    border-color: #b28b64;
+}
+
+button.btn.btn-primary:hover, button.btn.btn-primary:active, button.btn.btn-primary:focus {
+    background: #b28b64;
+    color: #fff;
+    border-color: #b28b64;
+}
